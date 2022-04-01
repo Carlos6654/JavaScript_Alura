@@ -1,3 +1,4 @@
+
 import { View } from './view.js';
 
 export class MensagemView extends View<string> {
@@ -7,5 +8,4 @@ export class MensagemView extends View<string> {
             <p class="alert alert-info">${model}</p>
         `
     }
-
 }
